@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-btn button {
+    /* Button */
+width: 256px;
+height: 36px;
+background: #FC004A;
+border-radius: 12px;
+/* Укажите свой адрес */
+font-family: 'Inter';
+font-weight: 400;
+font-size: 14.75px;
+/* identical to box height, or 163% */
+text-align: center;
+color: #FFFFFF;
+border: none;
+}
+
+ul li a {
+    /* Link → О нас */
+font-family: 'Inter';
+font-weight: 400;
+font-size: 15.125px;
+line-height: 24px;
+/* identical to box height, or 159% */
+color: #000000;
+text-decoration: none;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.header-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 71px;
+    align-items: center;
+}
+
+.burger img {
+    width: 50px;
+    display: none;
+}
+
+.header-left {
+    display: flex;
+    gap: 10px;
+    height: 71px;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .location button {
+        width: 186px;
+        height: 36px;
+    }
+
+    .container {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+        .logo img {
+            width: 120px;
+        }
+
+    .header-btn button {
+        width: 186px;
+        height: 36px;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+
+    .logo img {
+        display: none;
+    }
+
+.header-btn button {
+    width: 186px;
+    height: 36px;
+}
+
+.container {
+    max-width: 80%;
+}
+}
+
+.gray-line {
+    height: 1px;
+    background-color: #777474;
+}
+
+@media screen and (max-width: 835px) {
+
+    header ul {
+        display: none;
+    }
+
+    .burger img {
+        display: block;
+    }
+
+}
+
+/* bir-section */
+
+.section-img img {
+    margin-top: 65px;
+    margin-left: 15px;
+    width: 950px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.menu {
+    /* Heading 3 → Сеты */
+font-family: 'Inter';
+font-weight: 400;
+font-size: 32.4844px;
+/* identical to box height, or 123% */
+color: #262626;
+margin-left: 30px;
+margin-top: 65px;
+}
+
+.section-img {
+    text-align: center;
+}
+
+.card-1 {
+    width: 235px;
+    height: 391px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px -4px #0000001A;
+    box-shadow: 0px 10px 15px -3px #0000001A;
+}
+
+.card-text {
+font-family: 'Inter';
+font-weight: 700;
+font-size: 17.6562px;
+/* identical to box height, or 159% */
+color: #000000;
+margin-top: 25px;
+margin-left: 12px;
+}
+
+.card-number {
+    /* 45 000 сум */
+font-family: 'Inter';
+font-weight: 500;
+font-size: 18.2812px;
+/* identical to box height, or 153% */
+color: #FC004A;
+margin-top: 20px;
+margin-left: 12px;
+}
+
+.card-icon {
+    margin-left: 175px;
+    margin-top: px;
+}
+
+.card-block {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 44px;
+    flex-wrap: wrap;
+}
+
+.card-block2 {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 44px;
+    flex-wrap: wrap;
+}
+
+.card-block2 {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 44px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1180px) {
+    
+.card-1 {
+    width: 300px;
+    height: 391px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px -4px #0000001A;
+    box-shadow: 0px 10px 15px -3px #0000001A;
+}
+ 
+ }
+
+
+.gray-line2 {
+    height: 1px;
+    background-color: #777474;
+    margin-top: 40px;
+    display: none;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+@media screen and (max-width: 1180px) {
+
+    .gray-line2 {
+        display: block;
+    }
+
+}
